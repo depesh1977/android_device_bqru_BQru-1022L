@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from BQru-1022L device
 $(call inherit-product, device/bqru/BQru-1022L/device.mk)
 
 PRODUCT_DEVICE := BQru-1022L
-PRODUCT_NAME := omni_BQru-1022L
+PRODUCT_NAME := twrp_BQru-1022L
 PRODUCT_BRAND := BQru
 PRODUCT_MODEL := BQ-1022L
 PRODUCT_MANUFACTURER := bqru
