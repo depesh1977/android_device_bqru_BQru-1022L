@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),BQru-1022L)
+ifeq ($(TARGET_DEVICE),BQru_1022L)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
