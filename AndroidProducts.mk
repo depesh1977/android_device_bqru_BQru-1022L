@@ -8,5 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_BQru-1022L.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_BQru-1022L-eng
+COMMON_LUNCH_CHOICES := twrp_BQru-1022L-eng
