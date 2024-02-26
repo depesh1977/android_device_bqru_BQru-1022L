@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_BQru-1022L.mk
+    $(LOCAL_DIR)/twrp_BQru-1022L.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_BQru-1022L-user \
-    omni_BQru-1022L-userdebug \
-    omni_BQru-1022L-eng
+    twrp_BQru-1022L-eng
