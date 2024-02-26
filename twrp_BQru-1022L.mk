@@ -13,13 +13,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from BQru-1022L device
-$(call inherit-product, device/bqru/BQru-1022L/device.mk)
+$(call inherit-product, device/bqru/BQru_1022L/device.mk)
 
-PRODUCT_DEVICE := BQru-1022L
-PRODUCT_NAME := twrp_BQru-1022L
+PRODUCT_DEVICE := BQru_1022L
+PRODUCT_NAME := twrp_BQru_1022L
 PRODUCT_BRAND := BQru
 PRODUCT_MODEL := BQ-1022L
-PRODUCT_MANUFACTURER := bqru
+PRODUCT_MANUFACTURER := Bqru
 
 PRODUCT_GMS_CLIENTID_BASE := android-nlgsm
 
