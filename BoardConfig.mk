@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/bqru/BQru-1022L
+DEVICE_PATH := device/bqru/BQru_1022L
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -32,7 +32,7 @@ OVERRIDE_TARGET_FLATTEN_APEX := true
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := BQru-1022L
+TARGET_BOOTLOADER_BOARD_NAME := BQru_1022L
 TARGET_NO_BOOTLOADER := true
 
 # Display
