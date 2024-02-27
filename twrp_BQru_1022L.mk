@@ -7,17 +7,17 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-№$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 #Treble Support
-$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_64.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_64.mk)
 
 # Inherit from BQru-1022L device
-№$(call inherit-product, device/bqru/BQru_1022L/device.mk)
+#$(call inherit-product, device/bqru/BQru_1022L/device.mk)
 
 PRODUCT_DEVICE := BQru_1022L
 PRODUCT_NAME := twrp_BQru_1022L
