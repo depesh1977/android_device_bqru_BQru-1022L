@@ -113,3 +113,6 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
+
+# Vendor modules loading
+TW_LOAD_VENDOR_MODULES := "sprd_vibrator.ko"
