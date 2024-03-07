@@ -20,7 +20,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, device/bqru/BQru_1022L/device.mk)
 
 PRODUCT_DEVICE := BQru_1022L
-PRODUCT_NAME := twrp_BQru_1022L
+PRODUCT_NAME := omni_BQru_1022L
 PRODUCT_BRAND := BQru
 PRODUCT_MODEL := BQ-1022L
 PRODUCT_MANUFACTURER := Bqru
