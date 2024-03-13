@@ -3,7 +3,7 @@
 # Team Hovatek Touch Fix
 load_panel()
 {
-	insmod /sbin/gslX680.ko
+	insmod /sbin/sprd_vibrator.ko
 }
 
 
