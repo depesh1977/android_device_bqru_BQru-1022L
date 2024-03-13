@@ -9,5 +9,5 @@ load_panel()
 
 load_panel
 wait 1
-setprop modules.loaded 1
+setprop modulesdriver 1
 exit 0
