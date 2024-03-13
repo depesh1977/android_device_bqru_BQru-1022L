@@ -116,4 +116,4 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
 
 # Vendor modules loading
-#TW_LOAD_VENDOR_MODULES := "sprd_vibrator.ko"
+TW_LOAD_VENDOR_MODULES := "gslX680.ko"
