@@ -1,10 +1,9 @@
 #add for board init.rc for recovery mode
 #on post-fs
-    #insmod /vendor/lib/modules/gslX680.ko
-on fs
-    start load_modules
+on post-fs
+    start modulesdriver
 
-service load_modules /sbin/load_modules.sh
+service modulesdriver /sbin/modulesdriver.sh
     oneshot
     disabled
     user root
