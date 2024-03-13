@@ -12,6 +12,6 @@ Shipped Android Version | 9.0
 Storage | 16GB
 Battery | Li-Po 8000 mAh
 Dimensions | 253.5 x 174.1 x 13.3 mm
-Display | 800 x 1280 pixels, 18:9 ratio (149 ppi density)
+Display | 800 x 1280 pixels, 10.1 ratio (149 ppi density)
 Rear Camera  | 2 MP
 Front Camera | 0.3 MP
